@@ -1,0 +1,13 @@
+
+.playbutton{
+    max-width: 200px;
+    padding: 10px 40px;
+    border:none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', cours;
+    color: rgb(9, 242, 67);
+    font-weight:700;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
