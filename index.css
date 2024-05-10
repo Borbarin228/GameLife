@@ -1,13 +1,71 @@
+*,*::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .mainpage{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
 
 .playbutton{
-    max-width: 200px;
+    object-fit: none;
+    max-width: 430px;
+    max-height: 130px;
     padding: 10px 40px;
     border:none;
-    border-radius: 20px;
-    font-size: 20px;
-    font-family: 'Roboto Slab', cours;
+    border-radius: 40px;
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(9, 242, 67);
     font-weight:700;
     background-color: rgb(0, 0, 0);
-    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    margin-top: 20%;
 }
+
+.container{
+    background-image: url("bg.png");
+
+}
+
+.conway1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+    align-items: center;
+    margin-top:10%;
+    max-width: 450px;
+
+
+
+}
+
+.conway2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+    align-items: center;
+    max-width: 650px;
+    max-height: 500px;
+    margin-top: 15% ;
+
+
+
+}
+
+
+
+.playbutton:hover{
+    box-shadow: 0px 0px 15px rgb(0, 255, 0);
+    text-shadow: 0px 0px 8px rgb(0, 255, 0);
+}
+
+
+@media(max-width: 853px){
+    .holder{
+        margin-top: 290px;
+    }

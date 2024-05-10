@@ -1,7 +1,7 @@
 <header class="head">
 
     <div class="panel">
-
+        
         <a href="">ИГРАТЬ</a>
         <a href="">ИСТОРИЯ</a> 
         <a href="">ПРИМЕНЕНИЕ</a>
