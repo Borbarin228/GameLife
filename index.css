@@ -25,7 +25,8 @@
     margin-top: 20%;
 }
 
-.container{
+.container{ 
+    margin-top: -100px;
     background-image: url("bg.png");
 
 }
@@ -57,7 +58,15 @@
 
 }
 
+.bg{
+    margin-top: -3px;
+    background-image: url("bg2.png");
+    color:rgb(250, 250, 250);
+}
 
+.rules{
+    background-image: url("bg.png");
+}
 
 .playbutton:hover{
     box-shadow: 0px 0px 15px rgb(0, 255, 0);
@@ -65,7 +74,3 @@
 }
 
 
-@media(max-width: 853px){
-    .holder{
-        margin-top: 290px;
-    }
