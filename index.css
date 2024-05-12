@@ -8,6 +8,8 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
+    padding-inline: 20px;
+    margin-top: 76px;
 }
 
 .playbutton{
@@ -16,18 +18,19 @@
     max-height: 130px;
     padding: 10px 40px;
     border:none;
-    border-radius: 40px;
+    border-radius: 60px;
     font-size: 64px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(9, 242, 67);
     font-weight:700;
     background-color: rgb(0, 0, 0);
-    margin-top: 20%;
+    margin-top: 25%;
 }
 
 .container{ 
     margin-top: -100px;
     background-image: url("bg.png");
+
 
 }
 
@@ -37,7 +40,7 @@
     justify-content:space-around;
 
     align-items: center;
-    margin-top:10%;
+    margin-top:193px;
     max-width: 450px;
 
 
@@ -52,10 +55,7 @@
     align-items: center;
     max-width: 650px;
     max-height: 500px;
-    margin-top: 15% ;
-
-
-
+    margin-top: 266px ;
 }
 
 .bg{
@@ -68,9 +68,77 @@
     background-image: url("bg.png");
 }
 
+.history{
+margin-left: 25%;
+}
+
+.txtHeader{
+    color: white;
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    margin-left: 37%;
+}
+
+.hisimg1{
+    display: flex;
+    width: 427px;
+    height: 533px; 
+}
+
+
+
+
+.his{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255);
+    width: 700px;
+}
+
+.hisimg3{
+    width: 500px;
+    height: 300px;
+    
+}
+
+.application{
+    margin-left: 25%;
+}
+.app{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255);
+    width: 900px;
+    padding: 10%;
+}
+
+.appimg1{
+    width: 500px;
+    height: 300px;
+}
+
+.appimg2{
+    width: 500px;
+    height: 300px;
+}
+
+appimg3{
+    width: 500px;
+    height: 300px;
+}
+
 .playbutton:hover{
     box-shadow: 0px 0px 15px rgb(0, 255, 0);
     text-shadow: 0px 0px 8px rgb(0, 255, 0);
+    transition: all .5s;
+
 }
 
 
